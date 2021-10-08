@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2424243a;
+    position: fixed;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+body{
+    background-color: black;
+}
+.men_log{
+    width:110px;
+    height: 100%;
+    background-color: rgba(241, 230, 230, 0.438);;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #24242486;
+}
+.men_log a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 13px;
+}
+.men_log a:hover{
+    color: red;
+}
+.nav_con{
+    width: 84%;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+.nav_con h1{
+    margin-left: 43%;
+    font-weight: 550;
+    font-size: 30px;
+}
+.nav_con i{
+    margin-left: 30px;
+}
+.nav_reg{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24%;
+    height: 70px;
+}
+.nav_reg a{
+    color: #242424;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+.nav_reg a:hover{
+    color: red;
+}
+.sub{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(31, 186, 189);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.sub a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+    height: 250px;
+    background-color: #ddd;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
+}
+.container h1{
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 750;
+}
+.logo{
+    width: 100%;
+    height:600px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.prof{
+    width: 400px;
+    height: 90%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px gray;
+    margin:  0px 25px;
+}
+.prof h5{
+    font-size: 20px;
+    color: #242424;
+    padding-top: 50px;
+}
+.prof h4{
+    font-weight: 300;
+    padding-top: 20px;
+}
+.prof h1{
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.pref_btn{
+    width: 330px;
+    height: 70px;
+    background-color: #fff;
+    border:1px solid gray;
+    cursor: pointer;
+}
+.pr_btn{
+    background-color:rgb(31, 186, 189);
+    width: 330px;
+    height: 70px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.pr_btn:hover{
+    background-color: rgba(31, 186, 189, 0.555);
+}
+.pref_btn:hover{
+  background-color:  rgb(31, 186, 189); 
+}
+.prof p{
+    padding: 20px 20px;
+    font-size: 16px;
+    color: gray;
+}
+.prof a{
+    color: #242424;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 230px;
+    display: flex;
+}
+
+.box{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-01.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 9px;
+}
+.box:hover{
+  filter: opacity(500%);
+}
+.box2{
+    width: 250px;
+    height: 220px;
+    /* position: absolute; */
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-1.jpg");
+    background-size: cover;
+    filter: grayscale(100);
+    margin: 0px 20px;
+}.box2:hover{
+    filter: opacity(500%);
+}
+
+.box3{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-02.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box3:hover{
+    filter: opacity(500%);
+}
+.box4{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-03.jpg");
+    background-size: cover;
+    margin: 0px 20px;
+    filter: grayscale(10);
+}
+.box4:hover{
+filter: opacity(500%);
+}
+.box5{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-04.jpg");
+    background-size: cover;   
+    filter: grayscale(10);
+}
+.box5:hover{
+    filter: opacity(500%);
+}
+.box6{
+    width: 220px;
+    height: 220px;
+    background-image:url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-05.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;   
+}
+.box6:hover{
+    filter: opacity(500%);
+}
+.box7{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-06.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box7:hover{
+    filter: opacity(500%);
+}
+.banner2{
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+.box8{
+    width: 240px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-07.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box8:hover{
+    filter: opacity(500%);
+}
+.box9{
+    width: 240px;
+    height: 200px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-2.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box9:hover{
+    filter: opacity(500%);
+}
+.box10{
+    width: 240px;
+    height: 200px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-08.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box10:hover{
+    filter: opacity(500%);
+}
+.box11{
+    width: 240px;
+    height: 200px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-3.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box11:hover{
+    filter: opacity(500%);
+}
+.box12{
+    width: 240px;
+    height: 200px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-10.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box12:hover{
+    filter: opacity(500);
+}
+.banner3{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.box13{
+    width:250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-09.jpg");
+    background-size: cover;
+    margin: 0px 9px;
+    filter: grayscale(10);
+}
+.box13:hover{
+    filter: opacity(300%);
+}
+.box14{
+    width:250px ;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-4.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box14:hover{
+    filter: opacity(300%);
+}
+.box15{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-11.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box15:hover{
+    filter: opacity(300%);
+}
+.box16{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-14.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box16:hover{
+    filter: opacity(300%);
+}
+.box17{
+    width: 220px;
+    height: 220px;
+    background-image:url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-5.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box17:hover{
+    filter: opacity(300%);  
+}
+.box18{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-12.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box18:hover{
+    filter: opacity(300%);
+}
+.banner4{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    margin-top: 15px;
+}
+.box19{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-15.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box19:hover{
+    filter: opacity(300%);
+}
+.box20{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-13.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box20:hover{
+    filter: opacity(300%);
+}
+.box21{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-6.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box21:hover{
+    filter: opacity(300%);
+}
+.box22{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-16.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 10px;
+}
+.box22:hover{
+    filter: opacity(300%);
+}
+.box23{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-17.jpg");
+    filter: grayscale(10);
+    background-size: cover;
+    margin: 0px 20px;
+}
+.box23:hover{
+    filter: opacity(600%);
+}
+.box24{
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-19.jpg");
+    filter: grayscale(10);
+}
+.box24:hover{
+    filter: opacity(300%);
+}
+.banner4{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.box25{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-18.jpg");
+    background-size: cover;
+    margin: 0px 10px;
+    filter: grayscale(10);
+}
+.box25:hover{
+    filter: opacity(300%);
+}
+.box26{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-20.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 10px;
+}
+.box26:hover{
+    filter: opacity(300%);
+}
+.box27{
+    width: 250px;
+    height: 450px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwardsx2-7.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    padding: 30px 20px;
+    margin-top: 100px;
+}
+.box27:hover{
+    filter: opacity(300%);
+}
+.box28{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-03.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 10px;
+}
+.box28:hover{
+    filter: opacity(300%);
+}
+.box29{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-22.jpg");
+    filter: grayscale(10);
+    background-size: cover;
+    margin: 0px 10px;
+}
+.box29:hover{
+    filter: opacity(300%);
+}
+.box30{
+    width: 250px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-06.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+}
+.box30:hover{
+    filter: opacity(300%);
+}
+.banner5{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+}
+.box31{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-25.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box31:hover{
+    filter: opacity(300%);
+}
+.box32{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-24.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin: 0px 20px;
+}
+.box32:hover{
+    filter: opacity(300%);
+}
+.box33{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-28.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+    margin-left: 280px;
+}
+.box33:hover{
+    filter: opacity(300%);
+}
+.box34{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-26.jpg");
+    filter: grayscale(10);
+    background-size: cover;
+    margin: 0px 20px;
+}
+.box34:hover{
+    filter: opacity(300%);
+}
+.box35{
+    width: 220px;
+    height: 220px;
+    background-image: url("https://assets.awwwards.com/assets/images/pages/plans/gallery/awwwards-27.jpg");
+    background-size: cover;
+    filter: grayscale(10);
+}
+.box35:hover{
+    filter: opacity(300%);
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.left p{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.navigation_collection{
+    margin-top: 20px;
+    margin-left: 47px;
+}
+.navigation_collection a{
+    color: #242424;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+.navigation_collection a:hover{
+    color: gray;
+}
+.collection{
+    margin-left: 44px;
+    padding-top: 20px;
+}
+.collection a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
+    color: gray;
+}
+.collection a:hover{
+    color: #242424;
+}
+.right{
+    width: 50%;
+    height: 100%;
+
+}
+.collection2{
+    margin-top: 70px;
+    margin-left: 50%;
+}
+.collection2 a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 100px;
+}
